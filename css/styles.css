@@ -235,10 +235,14 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo .footer-logo-studio {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo:hover,
