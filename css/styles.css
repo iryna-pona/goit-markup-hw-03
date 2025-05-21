@@ -41,10 +41,12 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: inline-block;
 }
 
 .header-logo .header-logo-studio {
   color: #2e2f42;
+  display: inline-block;
 }
 
 .header-logo:hover,
