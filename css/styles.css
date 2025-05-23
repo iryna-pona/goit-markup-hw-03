@@ -22,6 +22,10 @@ ul {
   padding-left: 0;
 }
 
+.img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -90,6 +94,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .header-menu-item-link:hover,
@@ -143,8 +148,9 @@ ul {
   background: #4d5ae5;
   display: block;
   margin: 0 auto;
+  border: none;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
 }
 
@@ -213,6 +219,7 @@ ul {
 .team-item {
   background: #fff;
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-title {
@@ -222,7 +229,6 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -230,7 +236,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
+}
+
+.team-item-card {
+  padding: 32px 0;
 }
 
 .team-list {
